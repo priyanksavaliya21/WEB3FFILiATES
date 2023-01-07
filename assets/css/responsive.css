@@ -1,0 +1,1030 @@
+
+@media (min-width: 1280px){
+    .container{
+        max-width: 1350px;
+    }
+    .cm_8{
+        width: 726px;
+    }
+    .cm_4{
+        width: 476px;
+    }
+    .earth_map_section {
+        width: 1050px;
+        margin: 0 auto;
+    }
+}
+
+
+@media screen and (min-width:1440px){
+    .menu_toggle_inner_btn:hover span:nth-child(1) {
+        transform: rotate(-40deg) translateY(4px) translateX(-3px);
+        box-shadow: 0px 0px 10px #fff;
+    }
+    .menu_toggle_inner_btn:hover span:nth-child(2){
+        transform: rotate(20deg) translateY(1px) translateX(1px);
+        box-shadow: 0px 0px 10px #fff;
+    }
+    .menu_toggle_inner_btn:hover span:nth-child(3) {
+        transform: rotate(-40deg) translateY(-2px) translateX(2px);
+        box-shadow: 0px 0px 10px #fff;
+    }
+}
+
+
+@media (max-width: 1340px){
+    .nav-link {
+        padding: .5rem .5rem;
+    }
+    .pass_item_inner {
+        right: 18px;
+    }
+    .my_statistic_tab_sec p{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1279px){
+    .nav{
+        flex-wrap: nowrap;
+    }
+    .nav-link {
+        padding: .5rem .5rem;
+        width: 275px;
+    }
+    .myTabContent_bg{
+        width: 100%;
+        height: 330px;
+    }
+    .my_statistic_wrapper {
+        width: 73%;
+        margin-left: 20px;
+    }
+    .tab_content_item li + li {
+        margin-left: 29px;
+    }
+    .my_passes_wrapper {
+        width: 82%;
+    }
+    .tab_section_inner_block .nav-link {
+        width: 100%;
+    }
+    .tab_section_inner_block .tab_content_item li + li {
+        margin-left: 26px;
+    }
+    .unconnected_bottom_img .Round_01 {
+        left: 59px;
+    }
+    .unconnected_bottom_img .Round_02 {
+        left: 32%;
+    }
+}
+
+@media (max-width: 1199px){
+    .unconnected_wrap{
+        width: 40%;
+        order: -2;
+    }
+    .my_passes_wrapper{
+        width: 60%;
+        order: -1;
+    }
+    .my_statistic_wrapper{
+        width: 100%;
+        margin-top: 90px;
+    }
+    .my_passes_block{
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .my_passes_sec{
+        margin-bottom: 30px;
+    }
+    .my_passes_wrapper .my_statistic_title{
+        margin-bottom: 50px;
+    }
+    .my_statistic_block {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+    }
+    .nav {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .myTabContent_bg {
+        background-image: url(../images/tablet__statistic__background.png);
+        width: 1191px;
+        height: 470px;
+        object-fit: cover;
+    }
+    .tab_content_block{
+        display: none;
+    }
+    .tab_content_item{
+        display: none;
+    }
+    .tab_content_wrap{
+        display: flex;
+        justify-content: center;  
+    }
+    .tablet_wrapper {
+        display: block;
+        min-width: 280px;
+        margin: 60px 0;
+    }
+    .tablet_wrap{
+        position: relative;
+        margin-top: 28px;
+    }
+    .tablet_wrap::after {
+        content: '';
+        background-image: url(../images/tablet__statistic__all-ststistic__information__group-934__total-revenue__vector-368.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 4px;
+        height: 332px;
+        position: absolute;
+        top: 0;
+        left: -40px;
+    }
+    .tablet_wrap::before {
+        content: '';
+        background-image: url(../images/tablet__statistic__all-ststistic__information__group-934__total-revenue__vector-368.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 4px;
+        height: 332px;
+        position: absolute;
+        top: 0;
+        right: -40px;
+    }
+    .tablet_wrap li{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .tablet_wrap li{
+        margin-bottom: 8px;
+    }
+    .tablet_wrap li p, .tablet_block li p{
+        font-weight: 400;
+        font-size: 12px;
+        text-align: center;
+        color: #FFFFFF;
+        line-height: 1;
+    }
+    .tablet_wrap li span, .tablet_block li span{
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 12px;
+        color: #FFFFFF;
+        line-height: 1;
+    }
+    /* .tab-content .tab-pane.active  .tablet_wrap{
+        transform: translateX(0);
+    } */
+    .tab_section_inner_block_position{
+        display: none;
+    }
+    .tablet_block_3{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .tablet_block li{
+        display: flex;
+        margin-bottom: 8px;
+        justify-content: space-between;
+    }
+    .tablet_block li span{
+        margin-left: 20px;
+    }
+    #tab_3 .tab_content_wrap{
+        flex-direction: column;
+    }
+    .my_statistic_tab{
+        margin-top: -40px;
+    }
+    .tablet_wrap li, .tablet_block li {
+        margin-bottom: 15px;
+    }
+    .tablet_wrap::before, .tablet_wrap::after {
+        top: -8px;
+    }
+    .tablet_block::before, .tablet_block::after {
+        top: 8px;
+    }
+    .tablet_block_3 {
+        max-width: 450px;
+        width: 100%;
+        margin: 60px auto;
+    }
+    .pass_item_inner {
+        right: -92px;
+    }
+    .unconnected_bottom_img .Round_01 {
+        left: 65px;
+    }
+    .footer_shep {
+        width: 357px;
+    }
+    .footer_wrapper {
+        margin-top: 50px;
+        padding: 10px 0;
+    }
+    .footer_wrap .footer_shep::after{
+        width: 100%;
+    }
+    .bronze_title h3{
+        font-weight: 400;
+        font-size: 12px;
+        color: #FFFFFF;
+        margin-bottom: 20px;
+    }
+    .footer_shep {
+        height: 90px;
+        width: 263px;
+        padding: 10px 35px 20px 49px;
+    }
+    .menu_block {
+        overflow: auto;
+        height: 100%;
+        justify-content: unset;
+        padding: 70px 0 20px;
+    }
+    .menu_right_Sec {
+        position: relative;
+        z-index: 1;
+        max-width: 500px;
+        margin-left: auto;
+        top: -72px;
+    }
+    
+}
+
+
+@media screen and (max-width:991px){
+    .my_earnings_title h2{
+        font-size: 32px;
+        margin-top: 130px;
+    }
+    .unconnected_wrap {
+        width: 35%;
+    }
+    .face_img{
+        width: 100px;
+    }
+    .cross_01 {
+        left: 25.5%;
+    }
+    .cross_02 {
+        bottom: 29px;
+        right: -6px;
+    }
+    .cross_03 {
+        bottom: 30px;
+        left: -5px;
+    }
+    .unconnected_bottom_img .Round_02 {
+        left: 30%;
+    }
+    .unconnected_bottom_img .Round_01 {
+        left: 42px;
+    }
+    .bannre_btn a span svg{
+        width: 260px;
+        height: 50px;
+    }
+    .bannre_btn a p{
+        font-size: 16px;
+    }
+    .bannre_btn a {
+        width: 263px;
+        height: 49px;
+    }
+    .bannre_btn a::before {
+        top: -3px;
+        left: 22px;
+        width: 22px;
+        height: 22px;
+    }
+    .bannre_btn a::after {
+        bottom: -3px;
+        right: 27px;
+        width: 22px;
+        height: 22px;
+    }
+    .unconnected_inner_block:hover  .unconnected_inner_Sec::after {
+        top: -145px;
+        left: -19px;
+    }
+    .unconnected_inner_block:hover .cross_03 {
+        bottom: 26px;
+        left: -11px;
+    }
+    .unconnected_inner_block:hover .cross_02 {
+        bottom: 26px;
+        right: -12px;
+    }
+    .my_passes_img::after {
+        top: 28px;
+        left: 19px;
+        width: 62px;
+        height: 60px;
+    }
+    .my_passes_img::before {
+        width: 89px;
+    }
+    .my_passes_sec p {
+        top: 7px;
+        left: 78px;
+    }
+    .my_passes_img_line {
+        left: 94px;
+        bottom: 47px;
+    }
+    .my_passes_sec h5 {
+        font-size: 14px;
+        top: 34px;
+        left: 104px;
+    }
+    .pass_item_inner_img {
+        left: 40px;
+        bottom: 20px;
+        width: 200px;
+    }
+    .pass_item_inner li h3 {
+        font-size: 14px;
+    }
+    .pass_item_inner h6 {
+        font-size: 14px;
+    }
+    .pass_item_inner {
+        right: -114px;
+        top: -48px !important;
+    }
+    .my_passes_sec:hover .my_passes_img::after, .my_passes_sec:hover .my_passes_img1::after, .my_passes_sec:hover .my_passes_img2::after {
+        top: -1px;
+        left: -12px;
+        width: 92px;
+        height: 89px;
+    }
+    .my_passes_sec:hover .my_passes_img::before {
+        width: 139px;
+        height: 164px;
+    }
+    .pass_item_sec::after {
+        top: -80px;
+        left: 80px;
+        width: 154px;
+        height: 95px;
+        background-size: cover;
+    }
+    .myTabContent_bg {
+        width: 1181px;
+        height: 354px;
+    }
+    .my_statistic_tab {
+        width: 242px;
+        height: 158px;
+        margin-top: -38px;
+    }
+    .my_statistic_tab_sec::after{
+        left: -12px;
+    }
+    .my_statistic_tab_sec h3 {
+        font-size: 25px;
+    }
+    .tablet_wrapper {
+        min-width: 230px;
+        margin: 30px 0 0 0;
+    }
+    .tablet_wrap li {
+        margin-bottom: 10px;
+    }
+    .tablet_wrap::before {
+        height: 282px;
+        top: -20px;
+        right: -40px;
+    }
+    .tablet_wrap::after{
+        height: 282px;
+        top: -20px;
+        left: -40px;
+    }
+    .tablet_block_3 {
+        max-width: 400px;
+        width: 90%;
+        margin: 30px auto;
+    }
+    .tablet_block li {
+        margin-bottom: 10px;
+    }
+    .tablet_block li span {
+        margin-left: 12px;
+    }
+    .tablet_block::before {
+        right: -16px;
+        top: 10px;
+    }
+    .tablet_block::after {
+        left: -16px;
+        top: 10px;
+    }
+    .footer_block li a {
+        font-size: 11px;
+    }
+    .footer_block li p {
+        font-size: 11px;
+    }
+    .footer_shep {
+        width: 267px;
+    }
+    .tablet_block {
+        margin-top: 0;
+    }
+    .my_statistic_tab_sec p {
+        font-size: 11px;
+    }
+    .my_statistic_tab_sec {
+        transform: translateY(55px);
+    }
+    .main_wrapper{
+        background-image: url(../images/mobile_BG.png);
+    }
+   
+}
+
+@media (max-width: 767px){
+    .open_menu .menu_toggle_inner_btn::after {
+        display: none;
+    }
+    .unconnected_wrapper{
+        justify-content: center;
+    }
+    .unconnected_wrap{
+        width: 100%;
+    }
+    .unconnected_block{
+        max-width: 100%;
+    }
+    .unconnected_inner_block{
+        display: flex;
+        justify-content: space-between;
+    }
+    .unconnected_sec_bottom{
+        display: none;
+    }
+    .unconnected_inner_Sec::after {
+        top: -150px;
+        left: -20px;
+    }
+    .bannre_btn{
+        display: none;
+    }
+    .mobile_btn{
+        display: block;
+        position: relative;
+        z-index: 0;
+    }
+    .bannre_btn a p{
+        animation: unset;
+        color: #fff;
+    }
+    .unconnected_img::after {
+        top: -19px;
+        left: -30px;
+    }
+    .my_passes_wrapper {
+        width: 100%;
+        order: 1;
+    }
+    .my_statistic_wrapper{
+         margin-left: 0px;
+    }
+    .unconnected_inner_block:hover .unconnected_inner_Sec::after{
+        display: none;
+    }
+    .unconnected_inner_block:hover .unconnected_inner_animation_element1, .unconnected_inner_block:hover .unconnected_inner_animation_element2, .unconnected_inner_block:hover .unconnected_sec p {
+        display: block;
+    }
+    .unconnected_inner_block:hover .unconnected_inner_animation_element1{
+        margin: 0 auto;
+    }
+    .my_statistic_block{
+        display: none;
+    }
+    .fqa_wrapper{
+        margin-top: 30px;
+    }
+    .accordion-button {
+        position: relative;
+        display: unset;
+        align-items: unset;
+        width: 100%;
+        padding: unset;
+        font-size: 1rem;
+        color: unset;
+        text-align: unset;
+        background-color: transparent;
+        border: 0;
+        border-radius: 0;
+        overflow-anchor: none;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
+    }
+    .accordion-item:first-of-type .accordion-button {
+        border-top-left-radius: unset;
+        border-top-right-radius: unset;
+    }
+    .accordion-item {
+        background-color: unset;
+        border: 1pxsolidrgba(0,0,0,.125);
+    }
+    .accordion-item:first-of-type {
+        border-top-left-radius: unset;
+        border-top-right-radius: unset;
+    }
+    .accordion-button:focus {
+        z-index: 3;
+        border-color: transparent;
+        outline: 0;
+        box-shadow: unset;
+    }
+    .accordion-button:not(.collapsed) {
+        color: unset;
+        background-color: transparent;
+        box-shadow: unset;
+    }
+    .accordion-item + .accordion-item{
+        margin-top: 5px;
+    }
+    .fqa_title p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.2;
+        text-align: center;
+    }
+    .fqa_title span{
+        font-weight: 400;
+        font-size: 10px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .fqa_title h5{
+        font-weight: 500;
+        font-size: 27px;
+        color: #FFFFFF;
+        margin-top: 8px;
+        font-family: 'Montserrat';
+    }
+    .fqa_list_item li{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .fqa_list_item li p{
+        font-weight: 400;
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+    .fqa_list_item li span{
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 12px;
+        color: #FFFFFF;
+        margin-left: 33px;
+    }
+    .accordion-item {
+        position: relative;
+        max-width: 295px;
+        margin: 0 auto;
+    }
+    .accordion-item::after {
+        content: '';
+        position: absolute;
+        top: -14px;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-image: url(../images/box_bg1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        pointer-events: none;
+        height: 100%;
+    }
+    .accordion_block2::after{
+        background-image: url(../images/box_bg2.png);
+    }
+    .accordion_block3::after{
+        background-image: url(../images/box_bg3.png);
+    }
+    .accordion_block4::after{
+        background-image: url(../images/box_bg4.png);
+    }
+    .accordion_block5::after{
+        background-image: url(../images/box_bg5.png);
+    }
+
+    .my_passes_img::after {
+        top: 28px;
+        left: 18px;
+        width: 80px;
+        height: 74px;
+    }
+    .my_passes_img::before{
+        width: 111px;
+    }
+    .my_passes_sec p {
+        top: 8px;
+        left: 92px;
+    }
+    .my_passes_sec h5 {
+        font-size: 14px;
+        top: 40px;
+        left: 122px;
+    }
+    .pass_item_inner_img {
+        left: 56px;
+    }
+    .my_passes_img_line {
+        left: 114px;
+        bottom: 54px;
+    }
+    .pass_item_inner {
+        right: -102px;
+        top: -52px !important;
+    }
+    .my_passes_sec:hover .my_passes_img::after, .my_passes_sec:hover .my_passes_img1::after, .my_passes_sec:hover .my_passes_img2::after {
+        width: 103px;
+        height: 99px;
+    }
+    .my_passes_sec:hover .my_passes_img::before {
+        width: 169px;
+        height: 164px;
+    }
+    .pass_item_inner_img {
+        left: 61px;
+    }
+    .my_passes_block{
+        position: relative;
+        z-index: 0;
+    }
+    .my_passes_block::after{
+        content: '';
+        background-image: url(../images/passes_mobile_bg.png);
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 50%;
+        left: 70%;
+        transform: translate(-50%,-50%);
+        width: 100%;
+        height: 100%; 
+        z-index: -2;
+        opacity: .3;
+    }
+    .footer_block li {
+        display: none;
+    }
+   
+    .destop_menu_block_circle_shep{
+        display: none;
+    }
+    .mobile_menu_block{
+        display: block;
+        height: 800px;
+        margin-left: auto;
+    }
+    .menu_inner_shep {
+        position: relative;
+        top: 0px;
+        right: 25px;
+       
+        pointer-events: none;
+    }
+
+    .mene_1 {
+        position: absolute;
+        top: 40px;
+        left: -27px;
+    }
+    .mene_2 {
+        position: absolute;
+        top: 115px;
+        left: -27px;
+    }
+    .mene_3 {
+        position: absolute;
+        top: 192px;
+        left: -27px;
+    }
+    .mene_4 {
+        position: absolute;
+        top: 268px;
+        left: -27px;
+    }
+    .mene_5 {
+        position: absolute;
+        top: 341px;
+        left: -27px;
+    }
+    .mene_6 {
+        position: absolute;
+        top: 413px;
+        left: -27px;
+    }
+    .mene_7 {
+        position: absolute;
+        top: 483px;
+        left: -27px;
+    }
+    .mene_8 {
+        position: absolute;
+        top: 554px;
+        left: -27px;
+    }
+    .mene_9 {
+        position: absolute;
+        top: 623px;
+        left: -27px;
+    }
+    .mene_10 {
+        position: absolute;
+        top: 693px;
+        left: -27px;
+    }
+    .w_logo{
+        display: none;
+    }
+    .mobile_logo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 80px;
+        height: 73px;
+        background-image: url(../images/header__logo__rectangle-483.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-right: 25px;
+        display: block;
+        z-index: 1;
+        padding: 10px 0 0 14px;
+        z-index: 163;
+    }
+    .mobile_logo svg{
+        width: 40px;
+        height: 48px;
+    }
+    .menu_block{
+        overflow: auto;
+        height: 100%;
+        justify-content: unset;
+        padding: 70px 0 20px;
+    }
+    .menu_right_Sec {
+        min-width: 300px;
+       padding: 0;
+    }
+    .menu_toggle_btn {
+        z-index: 163;
+        width: 78px;
+        height: 73px;
+    }
+    .menu_toggle_btn::after {
+        content: '';
+        position: absolute;
+        bottom: 2px;
+        left: 44px;
+        width: 2px;
+        height: 50px;
+        background: #fff;
+        display: none;
+    }
+    .open_menu .menu_toggle_btn::after{
+        display: block;
+    }
+    #header_wrapper::after{
+        height: 50px;
+    }
+    .menu_toggle_inner_btn{
+        padding: 12px;
+    }
+    .open_menu .menu_toggle_inner_btn {
+        padding: 15px 9px;
+    }
+    .mobile_FQA_Section{
+        display: block;
+    }
+    .destop_btn{
+        display: none;
+    }
+    .header_menu {
+        position: relative;
+    }
+   
+}
+
+@media (max-width: 575px){
+    .unconnected_home_img {
+        width: 200px;
+    }
+    .unconnected_img::after{
+        width: 220PX;
+        height: 220px;
+    }
+    .face_img {
+        width: 80px;
+    }
+    .cross_01 {
+        width: 73px;
+        left: 32.2%;
+        top: 10px;
+    }
+    .cross_02 {
+        width: 50px;
+        bottom: 31px;
+        right: -2px;
+    }
+    .cross_03 {
+        width: 50px;
+        bottom: 32px;
+        left: -2px;
+    }
+    .unconnected_inner_block:hover .cross_01 {
+        width: 73px;
+        left: 29.2%;
+        top: 10px;
+    }
+    .unconnected_inner_block:hover .cross_02 {
+        width: 50px;
+        bottom: 23px;
+        right: -2px;
+    }
+    .unconnected_inner_block:hover .cross_03 {
+        width: 50px;
+        bottom: 23px;
+        left: -2px;
+    }
+    .unconnected_inner_block{
+        justify-content: center;
+    }
+    .unconnected_inner_block:hover .face_img {
+        transform: translate(-50%, -50%) scale(1);
+    }
+    .pass_item_inner {
+        right: -93px;
+    }
+   
+    .unconnected_sec {
+        width: 54%;
+    }
+    
+}
+
+@media (max-width: 450px){
+    .bannre_btn a span svg {
+        width: 154px;
+        height: 38px;
+    }
+    .bannre_btn a {
+        width: 154px;
+        height: 38px;
+    }
+    .bannre_btn a p {
+        font-size: 11px;
+    }
+    .bannre_btn a::before {
+        top: -1px;
+        left: -1px;
+        width: 15px;
+        height: 15px;
+    }
+    .bannre_btn a::after {
+        bottom: -1px;
+        right: -2px;
+        width: 15px;
+        height: 15px;
+    }
+    .unconnected_sec p{
+        font-size: 12px;
+    }
+    .unconnected_inner_Sec::after{
+        display: none;
+    }
+    .unconnected_inner_block {
+        justify-content: space-between;
+    }
+    .unconnected_img {
+        position: relative;
+        width: 50%;
+    }
+    .unconnected_sec {
+        width: 44%;
+    }
+    .unconnected_sec {
+        margin-top: 20px;
+    }
+    .unconnected_home_img {
+        width: 170px;
+    }
+    .cross_01 {
+        left: 29.2%;
+    }
+    .cross_02 {
+        bottom: 24px;
+    }
+    .cross_03 {
+        bottom: 24px;
+    }
+    .face_img {
+        width: 70px;
+    }
+    .my_passes_block::after {
+        left: 60%;
+        background-size: contain;
+        pointer-events: none;
+    }
+    .my_passes_sec {
+        width: 70%;
+    }
+    .pass_item_inner {
+        right: -30px;
+    }
+    .my_passes_block {
+        z-index: 0;
+    }
+    .footer_wrapper{
+        margin-top: 40px;
+    }
+    .menu_item a p::after {
+        min-width: 150px;
+    }
+}
+
+@media (max-width: 374px){
+    .my_earnings_title h2 {
+        font-size: 22px;
+    }
+    .bannre_btn a {
+        width: 124px;
+        height: 28px;
+    }
+    .bannre_btn a span svg {
+        width: 124px;
+        height: 28px;
+    }
+    .bannre_btn a p {
+        font-size: 10px;
+    }
+    .bannre_btn a::before {
+        top: -4px;
+    }
+    .bannre_btn a::after {
+        bottom: -2px;
+        right: 0px;
+    }
+    .face_img {
+        width: 60px;
+    }
+    .cross_01 {
+        left: 25.2%;
+    }
+    .cross_02 {
+        bottom: 20px;
+        width: 40px;
+        right: -3px;
+    }
+    .cross_03 {
+        bottom: 20px;
+        width: 40px;
+        left: -3px;
+    }
+    .unconnected_img::after {
+        width: 170PX;
+        height: 200px;
+    }
+    .my_statistic_title h2 {
+        font-size: 16px;
+    }
+    .my_statistic_title h2::after {
+        left: -75px;
+        width: 270px;
+    }
+    .my_passes_sec {
+        width: 95%;
+    }
+    .pass_item_inner {
+        right: 3px;
+    }
+    .footer_shep {
+        width: 270px;
+        height: 80px;
+    }
+}
+
